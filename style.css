@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: hsl(213, 8%, 21%);
+}
+
+p{
+    color: hsl(200, 1%, 46%);
+}
+
+body{
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.intro{
+    background-image: url(images/bg-header-desktop.png), linear-gradient(0deg, rgba(255,255,255,0.5324511201839882) 21%, rgba(159,171,178,0.8125814133435973) 100%);
+    background-size: cover;
+    background-position: center center;
+    height: 90vh;
+}
+
+.intro section{
+    width: 80%;
+    margin: auto; 
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.intro section .description{
+    padding: 50px;
+}
+
+.intro section .description h2{
+    padding-bottom: 16px;
+}
+
+.intro section .description p{
+    width: 60%;
+    margin: auto;
+    padding: 6px;
+}
+
+.btn{
+    padding: 20px 77px;
+    color: #fff;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ios{
+    background-color: hsl(171, 66%, 44%);
+}
+
+.mac{
+    background-color: hsl(233, 100%, 69%);
+}
