@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo.svg">
+    <link rel="stylesheet" href="style.css">
     <title>Clipboard Landing page</title>
 </head>
 <body>
-    
-    <main>
-        <div class="logo">
-            <img src="Images/logo.svg" alt="Logo">
-        </div>
-        <div class="description">
-            <h2>A history of everything you copy</h2>
-            <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
-        </div>
-        <div class="buttons">
-            <button class="btn">Download for iOS</button>
-            <button class="btn">Download for Mac</button>
-        </div>
+
+    <main class="intro">
+        <section>
+            <div class="logo">
+                <img src="Images/logo.svg" alt="Logo">
+            </div>
+            <div class="description">
+                <h2>A history of everything you copy</h2>
+                <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+            </div>
+            <div class="buttons">
+                <button class="btn ios">Download for iOS</button>
+                <button class="btn mac">Download for Mac</button>
+            </div>
+        </section>
     </main>
 
     <section class="showcase">
@@ -48,14 +52,16 @@
         <div class="wrapper2">
             <h2>Access Clipboard anywhere</h2>
             <p>Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
-            <img src="Images/image-devices.png" alt="">
+            <div class="img">
+                <img src="Images/image-devices.png" alt="">
+            </div>
         </div>
     </section>
 
     <section class="workflow">
         <h2>Supercharge your workflow</h2>
         <p>We’ve got the tools to boost your productivity.</p>
-        <div>
+        <div class="tools">
             <div>
                 <img src="Images/icon-blacklist.svg" alt="">
                 <h2>Create blacklists</h2>
@@ -88,12 +94,12 @@
         <h2>Clipboard for iOS and Mac OS</h2>
         <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
         <div class="buttons">
-            <button class="btn">Download for iOS</button>
-            <button class="btn">Download for Mac</button>
+            <button class="btn ios">Download for iOS</button>
+            <button class="btn mac">Download for Mac</button>
         </div>
     </section>
 
-    <footer>
+    <!-- <footer>
         <img src="Images/logo.svg" alt="">
         <div class="nav">
             <ul>
@@ -109,7 +115,30 @@
             <img src="Images/icon-facebook.svg" alt="">
             <img src="Images/icon-instagram.svg" alt="">
         </div>
-    </footer>
+    </footer> -->
 
-</body> 
+    <footer>
+        <div class="footer">
+            <div class="left">
+                <img src="Images/logo.svg" alt="Logo">
+            </div>
+            <div class="middle">
+                <ul class="top-nav">
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Install Kit</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Press Kit</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <img src="Images/icon-twitter.svg" alt="Twitter">
+                <img src="Images/icon-facebook.svg" alt="Facebook">
+                <img src="Images/icon-instagram.svg" alt="Instagram">
+            </div>
+        </div>
+    </footer>
+    
+
+</body>
 </html>
