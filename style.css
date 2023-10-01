@@ -171,3 +171,12 @@ body{
 .tools > div > img{
     padding-bottom: 20px;
 }
+
+.partners{
+    display: flex;
+    width: 94%;
+    margin: auto;
+    gap: 10px;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
