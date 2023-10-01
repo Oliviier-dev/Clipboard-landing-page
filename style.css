@@ -108,6 +108,7 @@ body{
     flex-direction: column;
     /* padding-top: 40px; */
     margin-top: -80px;
+    line-height: 1.8;
 }
 
 .wrapper div section p{
@@ -120,4 +121,25 @@ body{
 
 .wrapper div section:nth-child(2) {
     padding-bottom: 50px;
+}
+
+.wrapper2 > h2, .wrapper2 p{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+.wrapper2 p{
+    padding-bottom: 60px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.wrapper2 .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
