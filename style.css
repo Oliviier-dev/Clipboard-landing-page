@@ -174,9 +174,81 @@ body{
 
 .partners{
     display: flex;
-    width: 94%;
+    width: 86%;
     margin: auto;
     gap: 10px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.download > h2, .download > p{
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    align-items: center;
+}
+
+.download > .buttons{
+    padding: 20px 0;
+}
+
+/* footer{
+    background-color: #afaeae32;
+    display: flex;
     justify-content: space-around;
-    padding-bottom: 40px;
+    align-items: center;
+} */
+
+footer{
+    background-color: #afaeae32;
+}
+
+.footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.left {
+    flex: 1;
+}
+
+.left > img{
+    width: 80px;
+}
+
+.middle {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle > ul > li{
+    list-style: none;
+    display: inline;
+    padding: 0 10px;
+}
+
+.middle > ul > li > a:hover{
+    color: aqua;
+}
+
+.middle > ul > li > a {
+    text-decoration: none;
+    color: hsl(200, 1%, 46%);
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right img {
+    margin-right: 10px;
 }
